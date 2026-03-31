@@ -50,9 +50,24 @@ Based on our SimPy simulation of 2,000 neural packets, we successfully optimized
 
 ## 📊 Analytics & Visualizations
 *(Note: Please find the generated output graphs in this repository)*
-1. ![Latency Comparison](./latency_comparison.png): Histogram proving NTP operates well below the 10ms threshold.
-2. ![Thermal Load Stability](./thermal_load.png): Line chart tracking heat dissipation stability.
-3. ![Packet Delivery Ratio](./packet_loss_dist.png): Pie chart comparing Neural packet delivery rates.
+1.
+<p align="center">
+  <img src="./latency_comparison.png" width="600">
+  <br>
+  <em><b>รูปที่ 1:</b> กราฟเปรียบเทียบความหน่วง (Latency) พิสูจน์ว่าโปรโตคอล NTP สามารถทำเวลาได้ต่ำกว่าเกณฑ์ 10ms ทั้งหมด ป้องกันอาการ Motion Sickness ได้สำเร็จ</em>
+</p>
+2.
+<p align="center">
+  <img src="./thermal_load.png" width="600">
+  <br>
+  <em><b>รูปที่ 2:</b> กราฟแสดงผลการระบายความร้อนบนชิป (Edge-Processing) อุณหภูมิเสถียรที่ 37°C ตลอดการทดสอบ ปลอดภัยต่อเนื้อเยื่อสมอง 100%</em>
+</p>
+3. 
+<p align="center">
+  <img src="./packet_loss_dist.png" width="400">
+  <br>
+  <em><b>รูปที่ 3:</b> อัตราการส่งข้อมูล (Packet Loss Ratio) ระบบส่งมอบแพ็กเก็ตประสาทสำเร็จสูงถึง 96.9%</em>
+</p>
 
 ---
 
