@@ -9,6 +9,24 @@
 
 ---
 
+## 🛠️ Core Challenges & Our Solutions
+
+To achieve a seamless Brain-to-Brain connection, our team successfully addressed three critical biological and technical bottlenecks:
+
+### 1. The Neural Latency & Motion Sickness Problem
+* **The Challenge:** Standard internet protocols like TCP/IP contain massive overhead. This causes network latency to exceed the 10ms biological threshold, triggering severe motion sickness and forcing the brain to reject incoming data.
+* **Our Innovation (NTP):** We engineered the **Neural Transport Protocol (NTP)**. By stripping away standard TCP acknowledgment (ACK) overhead and integrating Bio-Time Stamping, we prioritized absolute speed, syncing perfectly with the brain's natural temporal coding.
+
+### 2. Thermal Dissipation (The Cell Death Limit)
+* **The Challenge:** Processing thousands of packets directly inside the cortex generates heat. If the brain tissue temperature rises by just 1°C, neurons will begin to die (Scar Tissue Formation).
+* **Our Innovation (Ultra-Low Power Edge MAC):** We optimized the architectural load. By converting Analog to Digital directly on the implanted chip using ultra-lightweight NTP frames, the system perfectly dissipates heat, maintaining a safe and stable 37°C environment.
+
+### 3. Bio-Security & Neuro-Rights Protection
+* **The Challenge:** A direct cortex-to-network connection opens vulnerabilities for malicious packet injections, thought spamming, and unauthorized physical hijacking.
+* **Our Innovation (Cyber-Biological Safety):** We implemented a robust biological firewall at the Session Layer. This Agency Protection system actively filters out malicious intents and guarantees a Human-in-the-Loop (HITL) consent mechanism before any actual neuro-stimulation occurs.
+
+---
+
 ## 🔬 Sprint 3 & 4 Validation Results (The MVP)
 
 Based on our SimPy simulation of 2,000 neural packets, we successfully optimized the network to meet strict biological constraints:
@@ -38,7 +56,7 @@ Based on our SimPy simulation of 2,000 neural packets, we successfully optimized
 
 ## 👥 Engineering Team
 * **Architect:** Kantawit Naknuan (673380027-4)
-* **Engineer:** Ratima Swasdi (673380055-9)
+* **Engineer:** Ratima Sawatnatee (673380055-9)
 * **Network Specialist:** Thirawat Ujina (673380039-7)
 * **DevOps:** Thanakrit Lakhonphon (673380269-0)
 * **Tester/QA:** Kitiyada Kongkham (673380509-6)
