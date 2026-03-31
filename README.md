@@ -54,6 +54,16 @@ Based on our SimPy simulation of 2,000 neural packets, we successfully optimized
 2. `thermal_load.png`: Line chart tracking heat dissipation stability.
 3. `packet_loss_dist.png`: Pie chart comparing Neural packet delivery rates.
 
+---
+
+## 📂 Project Structure & Documentation
+
+To explore our technical details and implementation plans, please refer to the following resources:
+
+* **[New network](https://drive.google.com/drive/folders/14v77we7-zbR_i9O88lVLO0kpJZrTw_AC?usp=sharing)**
+* **[Sprint Alpha + 1](https://drive.google.com/drive/folders/1fOCbmbyCz0CRNfhPP4qCynXJSA8Es3ft?usp=sharing)**
+* **[Final Presentation](https://drive.google.com/drive/folders/16-iq74XvdBJFIEG7HKlL3hPOIjfopHut?usp=sharing)**
+---
 ## 👥 Engineering Team
 * **Architect:** Kantawit Naknuan (673380027-4)
 * **Engineer:** Ratima Sawatnatee (673380055-9)
