@@ -50,9 +50,9 @@ Based on our SimPy simulation of 2,000 neural packets, we successfully optimized
 
 ## 📊 Analytics & Visualizations
 *(Note: Please find the generated output graphs in this repository)*
-1. `latency_comparison.png`: Histogram proving NTP operates well below the 10ms threshold.
-2. `thermal_load.png`: Line chart tracking heat dissipation stability.
-3. `packet_loss_dist.png`: Pie chart comparing Neural packet delivery rates.
+1. ![Latency Comparison](./latency_comparison.png): Histogram proving NTP operates well below the 10ms threshold.
+2. ![Thermal Load Stability](./thermal_load.png): Line chart tracking heat dissipation stability.
+3. ![Packet Delivery Ratio](./packet_loss_dist.png): Pie chart comparing Neural packet delivery rates.
 
 ---
 
